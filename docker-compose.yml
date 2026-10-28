@@ -1,0 +1,7 @@
+services:
+  wiki-server-guide:
+    build: .
+    container_name: wiki-server-guide
+    ports:
+      - "8091:80"
+    restart: unless-stopped

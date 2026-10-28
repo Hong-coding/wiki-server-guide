@@ -1,0 +1,27 @@
+/* 서버·인프라 가이드라 청록 계열로 ts-wiki와 구분합니다. */
+:root {
+  --vp-c-brand-1: #0f766e;
+  --vp-c-brand-2: #115e59;
+  --vp-c-brand-3: #134e4a;
+  --vp-c-brand-soft: rgba(15, 118, 110, 0.14);
+  --vp-font-family-base: 'Pretendard', 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+}
+
+.dark {
+  --vp-c-brand-1: #2dd4bf;
+  --vp-c-brand-2: #14b8a6;
+  --vp-c-brand-3: #0f766e;
+  --vp-c-brand-soft: rgba(45, 212, 191, 0.16);
+}
+
+/* 한국어 본문 가독성: 줄간격을 조금 넓힙니다. */
+.vp-doc p,
+.vp-doc li {
+  line-height: 1.85;
+  word-break: keep-all;
+}
+
+/* 접기(정답) 블록을 눈에 띄게 */
+.vp-doc .details {
+  border-left: 4px solid var(--vp-c-brand-1);
+}
